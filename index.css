@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+}
+.navbar ul{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar li{
+    list-style: none;
+    padding: 0px 20px 0px 20px ;
+}
+.navbar li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 18px;
+}
+
+.manubody{
+    display: flex;
+    background-color: whitesmoke;
+    height: 400px;
+    justify-content: space-evenly;
+}
+.manubody .name{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 26%;
+    left: 50px;
+}
+.picture img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    right: 200px;
+    top: 20%;   
+}
+.secondmanu{
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    background-color: rgb(150, 150, 150);
+}
+.skillname li{
+    list-style: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+.skillname{
+    width: 200px;
+    height: 300px;
+    transform: skew(35deg);
+    background-color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+.skillname li:hover{
+    transition: all;
+    transition-duration: 2s;
+  background-image: linear-gradient(rgb(252, 234, 79),green);
+  color: white;
+  box-shadow: 3px,3px,6px,15px,white;
+}
+.skillname:hover{
+    box-shadow: 3px 3px 25px 2px white;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 1s;
+}
+.hobiesname{
+    width: 200px;
+    height: 300px;
+    transform: skew(-45deg);
+    background-color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+.hobiesname li{
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    text-align: center;
+}
+.hobiesname li:hover{
+    transition: all;
+    transition-duration: 2s;
+  background-image: linear-gradient(rgb(252, 234, 79),green);
+  color: white;
+  box-shadow: 3px,3px,6px,15px,white; 
+}
+ li{
+    list-style: none;
+
+}
+.socillink{
+    background-color: #b8b8b5;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+   justify-content: start;
+
+}
+.socillink h1{
+    padding: 0px 20px;
+    text-transform: capitalize;
+}
+.linked{
+    width: 70px;
+   border: 1px solid red;
+   padding: 10px;
+}
+.linked a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: red;
+}
+.inneded{
+    width: 70px;
+  border: 1px solid red;
+    width: 70px;
+   padding: 10px;
+}
+.inneded a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color:red;
+}
+.linked:hover{
+    background-color: darkgray;
+}
